@@ -135,8 +135,4 @@ function mod.add_proc_function(self, name, func)
     ProcFunctions[name] = func
 end
 
-mod:dofile("scripts/mods/NewTalentsBuffs/example_code")
-
---[[mod:hook_safe(BuffExtension, "add_buff", function (self, template_name, params)
-    mod:echo(template_name)
-end)]]
+--mod:dofile("scripts/mods/NewTalentsBuffs/example_code")
