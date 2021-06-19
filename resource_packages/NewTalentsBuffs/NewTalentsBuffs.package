@@ -1,0 +1,11 @@
+mod = [
+	"NewTalentsBuffs"
+]
+
+package = [
+	"resource_packages/NewTalentsBuffs/NewTalentsBuffs"
+]
+
+lua = [
+	"scripts/mods/NewTalentsBuffs/*"
+]
